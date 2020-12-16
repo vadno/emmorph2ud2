@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8, vim: expandtab:ts=4 -*-
 
+import sys
 import setuptools
-from emmorph2ud import __version__
+import importlib.util
+
+
+def import_pyhton_file(module_name, file_path):
+    # Import module from file: https://docs.python.org/3/library/importlib.html#importing-a-source-file-directly
+    spec = importlib.util.spec_from_file_location(module_name, file_path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[module_name] = module
+    spec.loader.exec_module(module)
+    return module
+
 
 with open('README.md') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name='emmorph2ud2',
-    version=__version__,
+    version=getattr(import_pyhton_file('version', 'emmorph2ud2/version.py'), '__version__'),
     author='vadno',  # Will warn about missing e-mail
     description='A module for marking single word and multi-word units in POS-tagged text',
     long_description=long_description,
