@@ -32,7 +32,7 @@ bizonyítékokat	bizonyíték	[/N][Pl][Acc]	NOUN	Case=Acc|Number=Plur
 találnia	talál	[/V][Inf.3Sg]	VERB	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act
 ,	,	[Punct]	PUNCT	_
 melyek	amely	[/N|Pro|Rel][Pl][Nom]	PRON	Case=Nom|Number=Plur|Person=3|PronType=Rel
-segítségükre	segítség	[/N][Poss.3Pl][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Plur|Person[psor]=3
+segítségükre	segítség	[/N][Poss.3Pl][Subl]	NOUN	Case=Sbl|Number=Sing|Number[psor]=Plur|Person[psor]=3
 lehetnének	van	[/V][_Mod/V][Cond.NDef.3Pl]	VERB	Definite=Ind|Mood=Cnd,Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
 az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art
 ügy	ügy	[/N][Nom]	NOUN	Case=Nom|Number=Sing
@@ -42,7 +42,7 @@ megoldásában	megoldás	[/N][Poss.3Sg][Ine]	NOUN	Case=Ine|Number=Sing|Number[ps
 A	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art
 brutálisan	brutális	[/Adj][_Manner/Adv]	ADJ	Case=Ess|Degree=Pos|Number=Sing
 meggyilkolt	meggyilkolt	[/Adj][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing
-házaspárra	házaspár	[/N][Subl]	NOUN	Case=Sub|Number=Sing
+házaspárra	házaspár	[/N][Subl]	NOUN	Case=Sbl|Number=Sing
 2012	2012	[/Num|Digit][_Ord/Adj][Nom][]	ADJ	Case=Nom|Number=Sing|NumType=Ord
 február	február	[/N][Nom]	NOUN	Case=Nom|Number=Sing
 12-én	12-én	[/N][Nom]	NOUN	Case=Nom|Number=Sing
@@ -134,7 +134,7 @@ hogy	hogy	[/Cnj]	SCONJ	_
 autóikat	autó	[/N][Pl.Poss.3Pl][Acc]	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3
 a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art
 tüntetés	tüntetés	[/N][Nom]	NOUN	Case=Nom|Number=Sing
-helyszínére	helyszín	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3
+helyszínére	helyszín	[/N][Poss.3Sg][Subl]	NOUN	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3
 parkolták	parkol	[/V][Pst.Def.3Pl]	VERB	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
 le	le	[/Prev]	ADV	_
 és	és	[/Cnj]	CCONJ	_
@@ -144,7 +144,7 @@ engedélyt	engedély	[/N][Acc]	NOUN	Case=Acc|Number=Sing
 az	az	[/Det|Art.Def]	DET	Definite=Def|PronType=Art
 elektromos	elektromos	[/Adj|Attr][Nom]	ADJ	Case=Nom|Degree=Pos|Number=Sing
 hálózat	hálózat	[/N][Nom]	NOUN	Case=Nom|Number=Sing
-használatára	használat	[/N][Poss.3Sg][Subl]	NOUN	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3
+használatára	használat	[/N][Poss.3Sg][Subl]	NOUN	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3
 a	a	[/Det|Art.Def]	DET	Definite=Def|PronType=Art
 rendezvény	rendezvény	[/N][Nom]	NOUN	Case=Nom|Number=Sing
 során	sor	[/N][Poss.3Sg][Supe]	NOUN	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3
